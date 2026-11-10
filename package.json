@@ -1,0 +1,13 @@
+{
+  "name": "real-time-speech-translation-assemblyai",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node translate-live.mjs"
+  },
+  "dependencies": {
+    "assemblyai": "^4.42.0",
+    "node-record-lpcm16": "^1.0.1"
+  }
+}
